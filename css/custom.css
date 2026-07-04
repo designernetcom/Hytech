@@ -6706,3 +6706,32 @@ input[type="text"]:focus,
 .carousel-item {
   z-index: 1;
 }
+.services-wrap-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.services-wrap-card {
+  margin-bottom: 25px;
+  background-color: #f7ffcc;
+  border-radius: 10px;
+  padding: 30px;
+  transition: var(--transition);
+}
+.services-wrap-card .services-image {
+  margin-bottom: 28px;
+}
+.services-wrap-card .services-image img {
+  transition: var(--transition);
+}
+.services-wrap-card .services-content h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.services-wrap-card .services-content p {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+.services-image img {
+  width: 80px;
+}
