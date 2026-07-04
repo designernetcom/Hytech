@@ -178,7 +178,7 @@ h5 {
   margin-top: 25px;
   margin-bottom: 0;
   /* text-align: center; */
-  max-width: 700px;
+  max-width: 900px;
   display: flex;
   margin: auto;
 }
@@ -774,7 +774,7 @@ i::before {
 }
 
 .sisf-main-header {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
@@ -901,8 +901,8 @@ i::before {
 }
 
 .sisf-header-logo-link.navbar-brand img {
-  width: 100px;
-  height: auto;
+  width: 90px;
+  height: 90px;
 }
 
 .navbar-brand.mobile-block.sisf-header-logo-link {
@@ -1503,6 +1503,7 @@ i::before {
 
 .sisf-why-choose-us-contents {
   overflow: hidden;
+  padding: 40px 0;
 }
 
 .sisf-e-page-hover-contents .sis-e-inner {
@@ -2257,21 +2258,22 @@ i::before {
   line-height: 30px;
   margin-bottom: 3px;
   font-weight: 700;
+  color: white;
 }
 
 .testimonial-right.page .sisf-e-inner .star {
   font-size: 26px;
-  color: var(--primary-color);
+  color: #fecf09e8;
   transition: 0.4s ease-in-out;
 }
 
 .testimonial-right.page .sisf-e-inner .sisf-e-discription h3,
 .testimonial-right.page .sisf-e-inner .sisf-e-discription h2 {
-  color: var(--primary-color);
+  color: var(--white-color);
   transition: 0.4s ease-in-out;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .testimonial-right.page .sisf-e-inner.bg-white .sisf-e-author span,
@@ -2300,7 +2302,7 @@ i::before {
 }
 
 .sis-comman-swiper--slider .sisf-e-inner .quote-left-icon span {
-  color: #00000033 !important;
+  color: #fff !important;
 }
 
 .testimonial-right.page .swiper-slide.sisf-e-inner {
@@ -5041,7 +5043,7 @@ input[type="text"]:focus,
   }
 
   .sisf-header-logo-link.navbar-brand img {
-    width: 125px;
+    width: 100px;
     height: auto;
   }
 
@@ -5101,7 +5103,7 @@ input[type="text"]:focus,
   }
 
   .sisf-page-footer-middle-area {
-    padding: 25px 0;
+    padding: 40px 0;
   }
 
   .subscribe-newsletter-form .form-group {
@@ -5438,7 +5440,19 @@ input[type="text"]:focus,
     width: auto;
     height: auto;
   }
-
+  .sis-choose-us-right-image img {
+    margin-top: 20px;
+  }
+  .sisf-m-button {
+    display: flex;
+    justify-content: center;
+  }
+  .sis-page-content-part {
+    justify-content: center;
+  }
+  .main-footer .location {
+    margin-top: 50px;
+  }
   #sisf-page-header-inner {
     padding: 0 0;
     border-radius: 0px;
@@ -5454,8 +5468,8 @@ input[type="text"]:focus,
   }
 
   .sisf-header-logo-link.navbar-brand img {
-    width: auto;
-    height: auto;
+    width: 80px;
+    height: 80px;
   }
 
   .sisf-main-header .in-mobile {
@@ -5531,6 +5545,7 @@ input[type="text"]:focus,
 
   .sis-section-title {
     margin-bottom: 25px;
+    text-align: center;
   }
 
   .sis-section-title h1 {
@@ -6076,8 +6091,8 @@ input[type="text"]:focus,
   }
 
   .sisf-header-logo-link.navbar-brand img {
-    width: 100px;
-    height: auto;
+    width: 70px;
+    height: 70px;
   }
 
   .sisf-header-logo-link.navbar-brand {
@@ -6580,4 +6595,114 @@ input[type="text"]:focus,
 }
 .footer-copyright-text a {
   color: white;
+}
+
+/* counter css */
+.counter_div {
+  padding: 50px 0;
+}
+.counter_div {
+  padding: 50px 0 30px;
+  background: #f8fbfa;
+}
+
+.counter-box {
+  background: #fff;
+  border-radius: 18px;
+  padding: 40px 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.35s;
+  height: 100%;
+  border: 1px solid #edf0f2;
+}
+
+.counter-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.counter-box.active {
+  background: linear-gradient(135deg, #11b19b, #087b6c);
+  color: #fff;
+}
+
+.counter-box i {
+  font-size: 55px;
+  color: #12b59d;
+  margin-bottom: 20px;
+}
+
+.counter-box.active i {
+  color: #fff;
+}
+
+.count-number {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.counter {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: inherit;
+}
+
+.plus {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-left: 3px;
+  color: #12b59d;
+}
+
+.counter-box.active .plus {
+  color: #fff;
+}
+
+.counter-box h5 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.counter-box.active h5 {
+  color: #fff;
+}
+.counter-box img {
+  width: 50px;
+}
+.suffix {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 2px;
+  color: inherit;
+}
+/* Header */
+#sisf-page-header {
+  position: relative;
+  z-index: 9999;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 9999;
+}
+
+/* Dropdown */
+.sub-menu {
+  /* position: absolute; */
+  z-index: 99999;
+}
+
+/* Carousel */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  z-index: 1;
 }
