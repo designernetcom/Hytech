@@ -87,9 +87,10 @@ Sidebar heading     :  24px/32px, 600, "Work Sans", sans-serif (Heading Font)
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Laila:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --main-color: #00aa8f;
-  --primary-color: #016db6;
-  --primary-color: #016db6;
+  /* --main-color: #008C75;
+  --primary-color: #016db6; */
+  --main-color: #00403c;
+  --primary-color: #0a4d7b;
   --secondary-color: #d9ff0033;
   --text-color: #37493b;
   --white-color: #ffffff;
@@ -1540,6 +1541,7 @@ i::before {
   height: 30px;
   filter: none;
   transition: 0.4s ease-in-out;
+  filter: invert(1) brightness(2);
 }
 
 .sisf-e-page-hover-contents .sis-e-inner:hover .sisf-m-icon img {
@@ -2053,7 +2055,7 @@ i::before {
   justify-content: center;
   background-color: var(--white-color);
   border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  color: var(--white-color);
   border-radius: 50px;
   transform: rotate(-45deg);
   transition: all 0.3s ease-in-out;
@@ -2062,6 +2064,7 @@ i::before {
 .sis-project-list-item .sisf-m-icon-button a:hover {
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
+  color: var(--main-color);
   transform: rotate(0deg);
   transition: all 0.3s ease-in-out;
 }
@@ -2453,7 +2456,7 @@ i::before {
 
 .sisf-faq-accordian .accordion-button:not(.collapsed)::before,
 .sisf-page-accordian .accordion-button:not(.collapsed)::before {
-  color: var(--primary-color) !important;
+  color: var(--white-color) !important;
   transition: 0.4s ease-in-out;
   background: var(--main-color);
 }
